@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+int main(){
+	int x1,y1,x2,y2;
+	printf("Enter x1 :");
+	scanf("%d",&x1);
+	printf("Enter y1 :");
+	scanf("%d",&y1);
+	printf("Enter x2 :");
+	scanf("%d",&x2);
+	printf("Enter y2 :");
+	scanf("%d",&y2);
+	int sq = pow(x2-x1,2) + pow(y2-y1,2);
+	float ans = sqrt(sq);
+	printf("The Distance Between (%d,%d) and (%d,%d) is %f Units ..",x1,y1,x2,y2,ans);
+	return 0;
+}
